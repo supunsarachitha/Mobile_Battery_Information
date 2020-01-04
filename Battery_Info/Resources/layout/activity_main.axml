@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:background="#000000"
+    p1:layout_gravity="center"
+    p1:id="@+id/scrollView1">
+
+
+
+    <LinearLayout
+        p1:layout_width="280dp"
+        p1:layout_height="match_parent"
+        p1:paddingLeft="20dp"
+        p1:layout_gravity="center"
+        p1:orientation="vertical"
+        p1:id="@+id/linearLayout1">
+
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    p1:src="@drawable/bat"
+                    p1:layout_width="25dp"
+                    p1:layout_height="25dp"
+                    p1:id="@+id/imageView1"
+                    p1:layout_gravity="center"
+                    p1:layout_margin="3dp" />
+
+                <TextView
+                    p1:text="Battery Level : "
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Level1"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+                <TextView
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Level"
+                    p1:textColor="#cfcfcf"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    p1:src="@drawable/status"
+                    p1:layout_width="25dp"
+                    p1:layout_height="25dp"
+                    p1:id="@+id/imageView1"
+                    p1:layout_gravity="center"
+                    p1:layout_margin="3dp" />
+
+                <TextView
+                    p1:text="Status : "
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Status1"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+                <TextView
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Status"
+                    p1:textColor="#cfcfcf"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    p1:src="@drawable/Source"
+                    p1:layout_width="25dp"
+                    p1:layout_height="25dp"
+                    p1:id="@+id/imageView1"
+                    p1:layout_gravity="center"
+                    p1:layout_margin="3dp" />
+
+                <TextView
+                    p1:text="Source : "
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Source1"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+                <TextView
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Source"
+                    p1:textColor="#cfcfcf"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    p1:src="@drawable/IconHealth"
+                    p1:layout_width="25dp"
+                    p1:layout_height="25dp"
+                    p1:id="@+id/imageView1"
+                    p1:layout_gravity="center"
+                    p1:layout_margin="3dp" />
+
+                <TextView
+                    p1:text="Health : "
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Health1"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+                <TextView
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Health"
+                    p1:textColor="#cfcfcf"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    p1:src="@drawable/temp"
+                    p1:layout_width="25dp"
+                    p1:layout_height="25dp"
+                    p1:id="@+id/imageView1"
+                    p1:layout_gravity="center"
+                    p1:layout_margin="3dp" />
+
+                <TextView
+                    p1:text="Temperature : "
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Temperature1"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+                <TextView
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Temperature"
+                    p1:textColor="#cfcfcf"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    p1:src="@drawable/volt"
+                    p1:layout_width="25dp"
+                    p1:layout_height="25dp"
+                    p1:id="@+id/imageView1"
+                    p1:layout_gravity="center"
+                    p1:layout_margin="3dp" />
+
+                <TextView
+                    p1:text="Voltage : "
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/voltage1"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+                <TextView
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/voltage"
+                    p1:textColor="#cfcfcf"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    p1:src="@drawable/techno"
+                    p1:layout_width="25dp"
+                    p1:layout_height="25dp"
+                    p1:id="@+id/imageView1"
+                    p1:layout_gravity="center"
+                    p1:layout_margin="3dp" />
+
+                <TextView
+                    p1:text="Technology : "
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Technology1"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+                <TextView
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/Technology"
+                    p1:textColor="#cfcfcf"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:layout_marginTop="16dp"
+            p1:layout_marginEnd="16dp"
+            p1:background="@color/colorPrimaryDark"
+            >
+
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="50dp"
+                p1:background="@color/colorPrimaryDark">
+
+
+                <TextView
+                    p1:text="Enable Notification"
+                    p1:textColor="#cfcfcf"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/notificationText"
+                    p1:textAppearance="@android:style/TextAppearance.Material.Display1"
+                    p1:paddingLeft="16dp"
+                    p1:gravity="center"
+                    p1:textSize="8pt" />
+                
+                    <ToggleButton
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/toggleNotification" />
+
+               
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
